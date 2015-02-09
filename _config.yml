@@ -1,5 +1,6 @@
 # Site settings
 title: tolpp.com
+title_description: Yazılım ve Programlama Günlüğü
 email: ahmettolgaokur@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   tolpp.com; algoritmalara, veri yapılarına, bilgisayarla çözülebilecek problemlere yer verilen bir blogdur.
