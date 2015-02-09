@@ -1,0 +1,29 @@
+<div class="main1280">
+    <div class="sidebar-user1">
+            <ul><li>
+               <div class="menu-ana-menu-container"><ul class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom "><a href="{{ site.baseurl }}/">ana sayfa</a></li>
+                <!--{% for page in site.pages %}
+                  {% if page.title %}
+                  <li class="menu-item"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                  {% endif %}
+                {% endfor %} -->
+                <li class="menu-item"><a title="Hakkında" href="{{ site.baseurl }}/about ">hakkında</a></li>
+                {% if site.twitter_username %}
+                <li class="menu-item"><a title="@{{ site.twitter_username }}" href="http://twitter.com/{{ site.twitter_username }}" target="_blank">twitter</a></li>
+                {% endif %}
+                {% if site.github_username %}
+                <li class="menu-item" target="_blank"><a href="http://github.com/{{ site.github_username }}" target="_blank">github</a></li>
+                {% endif %}
+</ul></div> </li>
+            </ul>
+             <a id="live-menu" class="responsive-menu" href="#">Menu</a>
+      </div>
+  
+
+    <div class="main980">
+          <div class="block2-center2">
+              <div class="sidebar-user16 span2"></div>
+          </div>
+    </div>
+
+</div>
