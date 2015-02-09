@@ -3,7 +3,6 @@ layout: default
 ---
 
 <div class="main">
-  <div class="content-main">
     <div class="content">
       {% for post in site.posts %}
       <div class="post">
@@ -16,5 +15,4 @@ layout: default
       {% endfor %}
       <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
     </div>
-  </div>
 </div>
