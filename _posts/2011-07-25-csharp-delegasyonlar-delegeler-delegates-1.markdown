@@ -2,8 +2,8 @@
 layout: post
 title:  "C# - CSharp delegasyonlar (delegeler [delegates]) - 1"
 date:   2011-07-25 19:40:00
-tags: Memoization, Terimler
-categories: Terimler
+tags: CSharp
+categories: .Net
 ---
 
 **Delegeler**, birçok programlama dilindeki function pointer'ların C# karşılığı olarak düşünülebilir. Bu pointerlar vasıtasıyla, istediğimiz bir değişkene fonksiyonun geri döndürdüğü değeri değil, fonksiyonun kendisi (aslında fonksiyonun belekteki yeri) atanmış olur. Event mekanizmaları tasarlanırken sıkça kullanılan function pointer, typesafe olmadığından birçok problemlere yol açabilir. C# içindeki delegeler ise typesafetir.
