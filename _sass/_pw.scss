@@ -37,34 +37,6 @@
 	border-bottom: none;
 	padding: 16px;
 }
-.wp-caption{
-	background: #fff;
-	border: 1px solid #9D9D9D;
-	max-width: 100%;
-	padding: 4px 4px 4px 4px;
-	text-align: center; 
-	margin: 6px;
-}
-.wp-caption img {
-	width: auto;
-}
-.wp-caption p.wp-caption-text {
-	font-size: 16px;
-	margin: 0;
-	padding: 6px 0 0 0;
-}
-.wp-caption.alignnone{
-	margin: 4px 10px 10px 0px;
-}
-.wp-caption.alignleft{
-	margin: 4px 10px 10px 0px;
-}
-.wp-caption.alignright{
-	margin: 5px 20px 0px 0;
-}
-.wp-caption-text {
-	margin: 0 0 6px;
-}
 ::selection {
 	background: #2ab4ed;
 	color: #232122;
@@ -390,56 +362,6 @@ a:hover{
 	position:relative; 
 	top:8px;
 }															/* search end */
-										
-															/* calendar start*/
-#wp-calendar {
-	display: block;
-	margin: 0px;
-	padding: 0 0;
-	text-align: center;
-	border:0px;
-}
-
-#wp-calendar td {
-	padding: 2px 2px;
-	color: #232324;
-	background-color: #fff;
-	text-align: center;
-	border:0px solid #232122; 
-}
-
-#wp-calendar th {
-	padding: 2px 2px;
-	color: #fff;
-	background-color: #232122;
-	text-align: center;
-	border:1px solid #fff; 
-}
-.sidebar-user2 #wp-calendar th, .sidebar-user3 #wp-calendar th, .sidebar-user4 #wp-calendar th, .sidebar-user5 #wp-calendar th, .sidebar-user6 #wp-calendar th {
-	padding: 2px 10px;
-}
-.sidebar-user7 #wp-calendar th, .sidebar-user8 #wp-calendar th, .sidebar-user9 #wp-calendar th, .sidebar-user10 #wp-calendar th {
-	padding: 2px 15px;
-}
-.sidebar-user11 #wp-calendar th, .sidebar-user12 #wp-calendar th, .sidebar-user13 #wp-calendar th {
-	padding: 2px 23px;
-}
-.sidebar-user14 #wp-calendar th, .sidebar-user15 #wp-calendar th {
-	padding: 2px 38px;
-}
-.sidebar-user1 #wp-calendar th, .sidebar-user16 #wp-calendar th {
-	padding: 2px 85px;
-}
-
-#wp-calendar a{
-	padding: 2px 2px;
-	text-align: center;
-}
-
-#wp-calendar .pad {
-	background: transparent;
-	border:0px;
-}															/* calendar end*/
 
 .content-main{
 	overflow:hidden; 
@@ -536,10 +458,7 @@ a:hover{
 	width: 1280px;
 	margin: 0 auto;
 }
-.wp-post-image{
-	float:left; 
-	margin:0 15px 15px 0;
-}
+
 .status-publish{
 	border-bottom: 1px solid #DBDBDB;
 }
@@ -732,9 +651,6 @@ a:hover{
 	text-decoration:none;
 	color:#fff;
 	background:#9D9D9D;
-}
-.wp-pagenavi span.current{
-	border: 0px;
 }
 .navigation .pages{
 	color:#000;
@@ -1173,12 +1089,6 @@ p.comment-form-url {
 	.sidebar-user11, .sidebar-user12, .sidebar-user13 {width: 386px;}
 	.sidebar-user14, .sidebar-user15 {width: 590px;}
 	.sidebar-user16{width: 1200px;}
-	.sidebar-user2 #wp-calendar th, .sidebar-user3 #wp-calendar th, .sidebar-user4 #wp-calendar th, .sidebar-user5 #wp-calendar th,
-	.sidebar-user6 #wp-calendar th {padding: 2px 4px;}
-	.sidebar-user7 #wp-calendar th, .sidebar-user8 #wp-calendar th, .sidebar-user9 #wp-calendar th, .sidebar-user10 #wp-calendar th {padding: 2px 14px;}
-	.sidebar-user11 #wp-calendar th, .sidebar-user12 #wp-calendar th, .sidebar-user13 #wp-calendar th {padding: 2px 20px;}
-	.sidebar-user14 #wp-calendar th, .sidebar-user15 #wp-calendar th {padding: 2px 36px;}
-	.sidebar-user1 #wp-calendar th, .sidebar-user16 #wp-calendar th {padding: 2px 79px;}
 
 	.sidebar-user7 .serch-txt, .sidebar-user8 .serch-txt, .sidebar-user9 .serch-txt, .sidebar-user10 .serch-txt {width: 230px;}
 	.sidebar-user11 .serch-txt, .sidebar-user12 .serch-txt, .sidebar-user13 .serch-txt {width: 340px;}
@@ -1186,8 +1096,6 @@ p.comment-form-url {
 	.sidebar-user1 .serch-txt, .sidebar-user16 .serch-txt {width: 1150px;}
 	.span1 { width: 300px } 
 	.serch-txt{width: 170px}
-	#wp-calendar{width: 250px}
-	#wp-calendar td { padding: 2px 5px 2px 6px; }
 	.commentmetadata{ display:none;	}
 	#respond textarea {	width: 99%;	}
 	#respond input[type=text]{	width: 90%;	}
@@ -1206,16 +1114,6 @@ p.comment-form-url {
 	.sidebar-user11, .sidebar-user12, .sidebar-user13 {width: 316px;}
 	.sidebar-user14, .sidebar-user15 {width: 485px;}
 	.sidebar-user16{width: 990px;}
-	#wp-calendar{width: 100px}
-	#wp-calendar table {font-size: 16px;}
-	#wp-calendar td { padding: 2px 0px 2px 0px; font-size: 16px;}
-	#wp-calendar th{padding: 2px 8px; font-size: 16px;}
-	.sidebar-user2 #wp-calendar th, .sidebar-user3 #wp-calendar th, .sidebar-user4 #wp-calendar th, .sidebar-user5 #wp-calendar th, .sidebar-user6 #wp-calendar th {padding: 2px 6px;}
-	.sidebar-user7 #wp-calendar th, .sidebar-user8 #wp-calendar th, .sidebar-user9 #wp-calendar th, .sidebar-user10 #wp-calendar th {padding: 2px 11px;}
-	.sidebar-user11 #wp-calendar th, .sidebar-user12 #wp-calendar th, .sidebar-user13 #wp-calendar th {padding: 2px 17px;}
-	.sidebar-user14 #wp-calendar th, .sidebar-user15 #wp-calendar th {padding: 2px 29px;}
-	.sidebar-user16 #wp-calendar th {padding: 2px 65px;}
-	.sidebar-user1 #wp-calendar th, .sidebar-user16 #wp-calendar th {padding: 2px 64px;}
 	.sidebar-user1 .serch-txt {width: 940px}
 	.sidebar-user2 .serch-txt, .sidebar-user3 .serch-txt, .sidebar-user4 .serch-txt, .sidebar-user5 .serch-txt, .sidebar-user6 .serch-txt {width: 126px}
 	.sidebar-user7 .serch-txt, .sidebar-user8 .serch-txt, .sidebar-user9 .serch-txt, .sidebar-user10 .serch-txt  {width: 184px}
@@ -1240,12 +1138,9 @@ p.comment-form-url {
 	.content-navigation{width: 790px;}
 	.menu ul {top:30px;}
 	.menu li a{padding:8px 16px ;}
-	.sidebar-user1 #wp-calendar th, .sidebar-user16 #wp-calendar th {padding: 2px 44px;}
-
+	
 	.span1 { width: 300px } 
 	.serch-txt{width: 312px}
-	#wp-calendar{width: 250px}
-	#wp-calendar td { padding: 2px 16px 2px 16px; }
 	.commentmetadata{ display:none;	}
 	#respond textarea {	width: 96%;	}
 	#respond input[type=text]{	width: 90%;	}
@@ -1275,14 +1170,6 @@ p.comment-form-url {
 	.sidebar-user10 {margin: 0px 0px 0 0;}
 	.sidebar-user11, .sidebar-user12, .sidebar-user13, .sidebar-user14, .sidebar-user15, .sidebar-user16 {margin: 0px 0px 0 0;}
 	.sidebar-user1 .menu{text-align: left;}
-	#wp-calendar{width: 100px}
-	#wp-calendar table {font-size: 16px;}
-	#wp-calendar td { padding: 2px 0px 2px 0px; font-size: 16px;}
-	#wp-calendar th{padding: 2px 46px; font-size: 16px;}
-	.sidebar-user1 #wp-calendar th, .sidebar-user16 #wp-calendar th {padding: 2px 46px;}
-	.sidebar-user2 #wp-calendar th, .sidebar-user3 #wp-calendar th, .sidebar-user4 #wp-calendar th {padding: 2px 10px;}
-	.sidebar-user5 #wp-calendar th, .sidebar-user6 #wp-calendar th, .sidebar-user7 #wp-calendar th, .sidebar-user8 #wp-calendar th, .sidebar-user9 #wp-calendar th, .sidebar-user10 #wp-calendar th {padding: 2px 19px;}
-	.sidebar-user11 #wp-calendar th, .sidebar-user12 #wp-calendar th, .sidebar-user13 #wp-calendar th, .sidebar-user14 #wp-calendar th, .sidebar-user15 #wp-calendar th, .sidebar-user16 #wp-calendar th {padding: 2px 46px;}
 	.sidebar-user1 .serch-txt {width: 670px}
 	.sidebar-user2 .serch-txt, .sidebar-user3 .serch-txt, .sidebar-user4 .serch-txt {width: 176px}
 	.sidebar-user5 .serch-txt, .sidebar-user6 .serch-txt, .sidebar-user7 .serch-txt, .sidebar-user8 .serch-txt, .sidebar-user9 .serch-txt, .sidebar-user10 .serch-txt  {width: 304px}
@@ -1376,8 +1263,6 @@ p.comment-form-url {
 
 	.span1 { width: 300px } 
 	.serch-txt{width: 384px}
-	#wp-calendar{width: 250px}
-	#wp-calendar td { padding: 2px 21px 2px 21px;}
 	.commentmetadata{ display:none; }
 	#respond textarea {	width: 96%;	}
 	#respond input[type=text]{	width: 94%;	}
@@ -1398,13 +1283,6 @@ p.comment-form-url {
 	.sidebar-user16{width: 440px;}
 
 	.span1 {width: 300px } 
-	#wp-calendar{width: 250px}
-	#wp-calendar td { padding: 2px 11px 2px 11px;}
-	#wp-calendar th{font-size: 16px;}
-	.sidebar-user1 #wp-calendar th, .sidebar-user2 #wp-calendar th, .sidebar-user3 #wp-calendar th, .sidebar-user4 #wp-calendar th, 
-	.sidebar-user5 #wp-calendar th, .sidebar-user6 #wp-calendar th, .sidebar-user7 #wp-calendar th, .sidebar-user8 #wp-calendar th,
-	.sidebar-user9 #wp-calendar th, .sidebar-user10 #wp-calendar th, .sidebar-user11 #wp-calendar th, .sidebar-user12 #wp-calendar th,
-	.sidebar-user13 #wp-calendar th, .sidebar-user14 #wp-calendar th, .sidebar-user15 #wp-calendar th, .sidebar-user16 #wp-calendar th {padding: 2px 25px;}
 
 	.sidebar-user1 .serch-txt, .sidebar-user2 .serch-txt, .sidebar-user3 .serch-txt, .sidebar-user4 .serch-txt,
 	.sidebar-user5 .serch-txt, .sidebar-user6 .serch-txt, .sidebar-user7 .serch-txt, .sidebar-user8 .serch-txt, .sidebar-user9 .serch-txt,
@@ -1431,13 +1309,6 @@ p.comment-form-url {
 	.sidebar-user16{width: 290px;}
 	.block2-center{width:290px}
 	.span1 {width: 300px} 
-	#wp-calendar{width: 250px}
-	#wp-calendar td { padding: 2px 11px 2px 11px;}
-	#wp-calendar th{padding: 2px 15px; font-size: 16px;}
-	.sidebar-user1 #wp-calendar th, .sidebar-user2 #wp-calendar th, .sidebar-user3 #wp-calendar th, .sidebar-user4 #wp-calendar th, 
-	.sidebar-user5 #wp-calendar th, .sidebar-user6 #wp-calendar th, .sidebar-user7 #wp-calendar th, .sidebar-user8 #wp-calendar th,
-	.sidebar-user9 #wp-calendar th, .sidebar-user10 #wp-calendar th, .sidebar-user11 #wp-calendar th, .sidebar-user12 #wp-calendar th,
-	.sidebar-user13 #wp-calendar th, .sidebar-user14 #wp-calendar th, .sidebar-user15 #wp-calendar th, .sidebar-user16 #wp-calendar th {padding: 2px 15px;}
 
 	.sidebar-user1 .serch-txt, .sidebar-user2 .serch-txt, .sidebar-user3 .serch-txt, .sidebar-user4 .serch-txt,
 	.sidebar-user5 .serch-txt, .sidebar-user6 .serch-txt, .sidebar-user7 .serch-txt, .sidebar-user8 .serch-txt, .sidebar-user9 .serch-txt,

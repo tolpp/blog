@@ -13,5 +13,8 @@ github_username:  tolpp
 markdown: kramdown
 permalink: /:title/
 
+minify_html: true
+
 gems:
   - jekyll-sitemap
+  - octopress-minify-html
