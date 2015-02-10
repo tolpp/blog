@@ -48,6 +48,4 @@ Bilgisayar sisteminin temel görevi kullanıcı programlarını çalıştırmak 
 
 *Application Programs :* İşletim sistemiyle doğrudan ilişkili olmayan programlardır. Daha çok kullanıcıların işlerini halletmeye yöneliktir.
 
-
-
-<address> : Operating System Concepts ~ Eight Edition (s3,s4,s5,s6)</address>
+<address>Kaynak : Operating System Concepts ~ Eight Edition (s3,s4,s5,s6)</address>
