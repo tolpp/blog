@@ -3,16 +3,24 @@ layout: default
 ---
 
 <div class="main">
-    <div class="content">
+    <div class="main-wrapper">
+      <div class="post-wrapper">
       {% for post in site.posts %}
-      <div class="post">
+      <div class="post-link">
+         <span class="post-link-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+         <span class="post-seperator">|</span>
+         <span class="post-link-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></span> 
+      </div>
+      
+      <!-- <div class="post">
         <div class="post-main">
           <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           <span><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}</a></span>
           </h1>
         </div>
-      </div>
+      </div> -->
       {% endfor %}
+      </div>
       <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
     </div>
 </div>

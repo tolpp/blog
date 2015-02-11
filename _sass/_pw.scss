@@ -1348,3 +1348,26 @@ p.comment-form-url {
         }
     }
 }
+
+/**
+* main page css
+*/
+.post-link {
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+span.post-link-date {
+    width: 85px;
+    display: inline-block;
+}
+
+.main-wrapper {
+    text-align: center;
+    width: 100%;
+}
+
+.post-wrapper {
+	display: inline-block;
+	text-align:left;
+}
