@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Dinamik Programlama (Dynamic Programming) nedir?"
-date:   2011-06-07 16:44:00
+title:  "Draft Test"
+date:   2020-06-07 16:44:00
 tags: Science
 categories: Science
 mathjax: true
