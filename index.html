@@ -11,14 +11,6 @@ layout: default
          <span class="post-seperator">|</span>
          <span class="post-link-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></span> 
       </div>
-      
-      <!-- <div class="post">
-        <div class="post-main">
-          <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <span><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}</a></span>
-          </h1>
-        </div>
-      </div> -->
       {% endfor %}
       </div>
       <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
