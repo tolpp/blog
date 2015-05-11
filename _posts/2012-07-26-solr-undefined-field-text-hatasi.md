@@ -2,8 +2,8 @@
 layout: post
 title:  "Solr “Undefined field text” hatası"
 date:   2012-07-26 01:55:00
-tags: Solr, Apache
-categories: Science
+tags: [solr, apache]
+categories: [Tools]
 mathjax: false
 ---
 

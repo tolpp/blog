@@ -4,11 +4,21 @@ layout: default
 
 <div class="post-main">
 
-    <h1>{{ page.title }}
-    	<span>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
+  <h1>{{ page.title }}
+    <span>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
 	</h1>
+	{% include social/social-buttons.html %}
   <article class="post">
     {{ content }}
   </article>
+  
+  
+
+  
+  <div id="disqus_thread"></div>
+  
+  {% include tool/disqus.html %}
+  
+  {% include social/social-button-includes.html %}
 
 </div>

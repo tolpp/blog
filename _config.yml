@@ -1,6 +1,6 @@
 # Site settings
 title: tolpp.com
-title_description: Yazılım ve Programlama Günlüğü
+title_description: yazılım ve programlama günlüğü
 email: ahmettolgaokur@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   tolpp.com; algoritmalara, veri yapılarına, bilgisayarla çözülebilecek problemlere yer verilen bir blogdur.
@@ -14,6 +14,15 @@ markdown: kramdown
 permalink: /:title/
 
 minify_html: false
+
+## Tagging
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+#tag_feed_layout: tag_feed
+#tag_feed_dir: tag
+
+ignored_tags: [ignored] #ignored tags should be here
 
 gems:
   - jekyll-sitemap

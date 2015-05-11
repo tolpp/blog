@@ -2,8 +2,8 @@
 layout: post
 title:  "Selection Sort (Seçmeli Sıralama)"
 date:   2011-02-01 17:58:00
-tags: Sıralama Algoritmaları
-categories: "Sıralama Algoritmaları"
+tags: [sıralama algoritmaları, seçmeli sıralama, selection sort]
+categories: [Sıralama Algoritmaları]
 ---
 <img class=" " title="Selection Sort Animate" src="http://upload.wikimedia.org/wikipedia/commons/b/b0/Selection_sort_animation.gif" alt="Seçmeli arama animasyonu" width="202" height="202" align="right" border="1"/>
 
@@ -13,7 +13,7 @@ Dizimiz üzerinde N tane eleman olsun. Bu durumda N kadar kontrol döngüsü ça
 
 Buradan seçmeli sıralamanın çok performanslı bir sıralama olmadığını görebiliriz. Bu yüzden büyük diziler yerine, minik dizilerde kulanılması daha mantıklı olacaktır. Tercih sebebi ise yazımı çok kolay bil algoritmaya sahip olmasıdır.
 <h4>Adım-Adım Uygulama</h4>
-Elimizde  5 1 4 2 8 değerlerine sahip 5 elemanlı bir dizi olsun. Bunu selection sort kullanarak adım adım sıralayalım:<br/>
+Elimizde 5 1 4 2 8 değerlerine sahip 5 elemanlı bir dizi olsun. Bunu selection sort kullanarak adım adım sıralayalım:<br/>
 
 <strong>İlk döngü:</strong><br/>
 ( <span style="text-decoration: underline;"><span style="color: #ff0000;">5</span></span> 1 4 2 8 )<br/>

@@ -2,8 +2,8 @@
 layout: post
 title:  "Quick Sort (Hızlı Sıralama)"
 date:   2012-10-04 00:44:00
-tags: Quicksort
-categories: Sıralama Algoritmaları
+tags: [quicksort]
+categories: [Algoritmalar]
 ---
 
 <img class="alignright size-full wp-image-68" title="Sorting_quicksort_anim" alt="" src="{{site.baseurl}}/assets/images/2011/04/Sorting_quicksort_anim.gif" width="220" height="168" />

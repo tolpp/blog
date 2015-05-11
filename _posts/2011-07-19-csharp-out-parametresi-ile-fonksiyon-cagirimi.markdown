@@ -2,8 +2,8 @@
 layout: post
 title:  "C# - CSharp out parametresi ile fonksiyon çağırımı"
 date:   2011-07-19 17:12:00
-tags: CSharp
-categories: ".Net"
+tags: [csharp, .net]
+categories: [.Net]
 ---
 
 Bir metodu void olarak kullanmamıza rağmen metod içindeki bir veya birden fazla değer almak istiyorsak, out veya ref parametresini kullanabiliriz. ref parametresi dediğim, call-by-referance anlamına geliyor. out parametresi de bu parametreye oldukça benziyor. 

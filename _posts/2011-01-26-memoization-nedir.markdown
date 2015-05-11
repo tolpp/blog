@@ -2,8 +2,8 @@
 layout: post
 title:  "Memoization nedir?"
 date:   2011-01-26 00:00:00
-tags: Memoization, Terimler
-categories: Terimler
+tags: [memoization, terimler]
+categories: [Terimler]
 ---
 
 İhtiyaç duyulan bir değerin sürekli olarak hesaplanması yerine bir kere hesaplanıp ihtiyaç duyulduğunda bu değerin yeniden kullanılmasına verilen addır. Bir fonksiyonel programlama dili olan haskell dilinde memoization işlemi otomatik gerçekleştirilmektedir. Memorization ile karıştırılmaması gerekir. Bir nevi hatırlama denebilir.

@@ -1,35 +1,32 @@
 <div class="main">
-  <p>Tolga Okur 2015 ~ This site generated with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a></p>
-  <!--<div class="footer">
-      <div class="sidebar-user1"></div>
-      <div class="block2-center">
-        <div class="block2-center2">
-          <div class="sidebar-user2 span2"></div>
-          <div class="sidebar-user3 span2"></div>
-          <div class="sidebar-user4 span2"></div>
-          <div class="sidebar-user5 span2"></div>
-          <div class="sidebar-user6 span2"></div>
-        </div>
-        <div class="block2-center2">
-          <div class="sidebar-user7 span2"></div>
-          <div class="sidebar-user8 span2"></div>
-          <div class="sidebar-user9 span2"></div>
-          <div class="sidebar-user10 span2"></div>
-        </div>
-        <div class="block2-center2">
-          <div class="sidebar-user11 span2"></div>
-          <div class="sidebar-user12 span2"></div>
-          <div class="sidebar-user13 span2"></div>
-        </div>
-        <div class="block2-center2">
-          <div class="sidebar-user14 span2"></div>
-          <div class="sidebar-user15 span2"></div>
-        </div>
-        <div class="block2-center2">
-          <div class="sidebar-user16"></div>
-        </div>
-      </div> 
-  </div>-->
-  
+  <div class="footer">
+    <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a> ile takip et.</p>
+    <div class="footer-sign"></div>
+    <div class="block2-center">
+      <!--
+      <div class="block2-center2">
+        <div class="sidebar-user11 span2"></div>
+        <div class="sidebar-user12 span2"></div>
+        <div class="sidebar-user13 span2"></div>
+      </div>
+      -->
+      <div class="block2-center2">
+        <div class="sidebar-user14 span2">
+          <!--<div id="tag-cloud">
+            {{ site | tag_cloud }}
+          </div>-->
+          {% include social/googleplus-person.html %}
+          </div>
+        <div class="sidebar-user15 span2">{% include social/googleplus-page.html %}</div>
+      </div>
+    </div>
+    
+    
+    <div class="licance">
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lisansı" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
+      <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">tolpp.com</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"> Creative Commons Alıntı-LisansDevam 4.0 Uluslararası Lisansı </a> ile lisanslanmıştır.
+      <p>Tolga Okur (2010 - 2015) ~ Bu site <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> kullanılarak üretilmiştir.</p>
+    </div>
+  </div>
   {% include tool/google-analytics.html %}
 </div>

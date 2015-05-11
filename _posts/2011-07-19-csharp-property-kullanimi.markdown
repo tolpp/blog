@@ -2,8 +2,8 @@
 layout: post
 title:  "C# - CSharp property kullanımı"
 date:   2011-07-19 20:11:00
-tags: CSharp
-categories: ".Net"
+tags: [csharp, .net]
+categories: [.Net]
 ---
 
 Property, C#'ta get ve set metodları kullanmadan private değişkenlere erişimi sağlayan, encapsulation olayını güzelleştirerek OOP'i zevkli hale getiren bir hededir.

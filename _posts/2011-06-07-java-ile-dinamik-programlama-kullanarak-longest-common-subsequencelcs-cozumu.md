@@ -2,8 +2,8 @@
 layout: post
 title:  "Java ile Dinamik Programlama Kullanarak Longest Common Subsequence(LCS) çözümü"
 date:   2011-06-07 17:04:00
-tags: Science
-categories: Science
+tags: [java, dinamik programlama, dynamic programming, lcs, longest common subsequence]
+categories: [Science]
 mathjax: false
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title:  "Sieve of Eratosthenes (Eratosthenes'in Eleği)"
 date:   2012-09-27 14:31:00
-tags: Algoritmalar, Algorithm Analysis
-categories: Algorithms
+tags: [algoritmalar, algorithm analysis]
+categories: [Algoritmalar]
 ---
 
 Eratosthenes'in Eleği ya da diğer adıyla Eratosthenes'in Kalburu asal sayıların bulunması için kullanılan eski ve temel yöntemlerden biri.

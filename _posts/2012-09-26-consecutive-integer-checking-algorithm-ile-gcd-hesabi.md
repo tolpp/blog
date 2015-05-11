@@ -2,8 +2,8 @@
 layout: post
 title:  "Consecutive Integer Checking Algorithm ile GCD hesabı"
 date:   2012-09-26 01:55:00
-tags: Science
-categories: Science
+tags: [algorithms]
+categories: [Algoritmalar]
 mathjax: false
 ---
 
@@ -15,7 +15,7 @@ Algoritmanın çalışma mantığı şu :
 
 **m** ve **n** şeklinde EBOB değeri bulunacak iki tamsayımız olsun. Bunlardan küçük olan değer **t** olarak seçilir. Her iki sayı da **t**'ye bölünür. Eğer kalan 0 ise EBOB değeri **t**'dir. Değilse **t** değeri sürekli bir azaltılarak bölme işlemi yinelenir. Yani ;
 
-1. **t** 'ye *min*{**m**, **n**} değerini ata.
+1. **t** 'ye *min*{**m**, **n**} değerini ata.
 2. **m**'yi **t**'ye böl. Kalan 0 ise 3. adıma değilse 4.adıma geç.
 3. **n**'yi **t**'ye böl. Kalan 0 ise EBOB değeri olarak **t**'yi döndür.
 4. **t'**yi bir azalt ve 2.adıma dön.

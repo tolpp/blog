@@ -2,8 +2,8 @@
 layout: post
 title:  "OS Services (İşletim Sistemi Servisleri)"
 date:   2012-03-31 02:51:00
-tags: 
-categories: Operating Systems
+tags: [os, operating system, işletim sistemi]
+categories: [Operating Systems]
 mathjax: false
 ---
 

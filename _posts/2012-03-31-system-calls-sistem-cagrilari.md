@@ -2,11 +2,11 @@
 layout: post
 title:  "System Calls (Sistem Çağrıları)"
 date:   2012-03-31 02:51:00
-tags: 
-categories: Operating Systems
+tags: [os, operating system, işletim sistemi]
+categories: [Operating Systems]
 mathjax: false
 ---
-Sistem çağrıları  OS tarafından servisler için sağlanan arayüzdür.  Doğrudan donanıma erişenler gibi düşük seviye görevler (tasks) assembly dilinde instructionlar içerdiği halde genellikle C, C++ dilleriyle yazılmışlardır. System call'lar sayesinde yazılımcı doğrudan donanıma müdahale etmez. Donanım üzerinde gerçekleştireceği işlemi system call kullanarak gerçekleştirir. Bu sayede olası sistem haatalarından kaçınılmış olur.
+Sistem çağrıları  OS tarafından servisler için sağlanan arayüzdür.  Doğrudan donanıma erişenler gibi düşük seviye görevler (tasks) assembly dilinde instructionlar içerdiği halde genellikle C, C++ dilleriyle yazılmışlardır. System call'lar sayesinde yazılımcı doğrudan donanıma müdahale etmez. Donanım üzerinde gerçekleştireceği işlemi system call kullanarak gerçekleştirir. Bu sayede olası sistem haatalarından kaçınılmış olur.
 
 System call'ların da, sistemden sisteme değişiyor olması yazılımcının işini zorlaştırır. Bu değişiklik, bir OS için yazılan programın başka bir OS üzerinde çalışamamasına sebep olur. Bu yüzden programcılar, doğrudan sistem call'lar yerine application program interface(API) kullanmayı tercih ederler.
 

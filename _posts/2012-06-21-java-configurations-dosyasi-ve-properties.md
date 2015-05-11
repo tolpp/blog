@@ -2,8 +2,8 @@
 layout: post
 title:  "Java Configurations Dosyası ve Properties"
 date:   2012-06-21 23:30:00
-tags: Java
-categories: Java
+tags: [java]
+categories: [Java]
 mathjax: false
 ---
 Konfigurasyon dosyaları, sonradan düzenlenebilir çeşitli ayar verilerine ve pek değişmeyeceği düşünülen bağlantı verilerine sonradan kolayca erişilebilip kod üzerinde oynamaksızın programın işleyişini değiştirmek amacıyla kullanabileceğimiz dosya yapılarıdır. Buradaki verilere java.util.Properties sınıfını kullanarak ulaşılabilir.

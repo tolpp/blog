@@ -2,8 +2,8 @@
 layout: post
 title:  "Bubble Sort (Kabarcık Sıralama)"
 date:   2011-01-27 06:41:00
-tags: Algoritmalar
-categories: "Siralama Algoritmalari"
+tags: [algoritmalar, sıralama algoritmaları, kabarcık sıralama, bubble sort]
+categories: [Algoritmalar]
 ---
 
 <img title="bubblesort_animate" src="http://upload.wikimedia.org/wikipedia/commons/3/37/Bubble_sort_animation.gif" alt="" width="224" height="190" align="right" border="1"/> Kabarcık sıralamanın gerçekleşimini gösteren animasyon
@@ -12,16 +12,16 @@ Sinking sort olarak da geçen bu sıralama algoritması, komşu olan her iki ele
 <h4>Performans</h4>
 Bubble sort, ortalama (avarage) ve en kötü durumda(worst-case) <strong>O(<em>n</em><sup>2</sup>)</strong> zaman karmaşıklığına sahiptir. Best-case durumunda O(n) karmaşıklığı olabilir. Bunun için her bir ikili kontrol döngüsü sonunda bir yer değiştirme (swapping) işlemi yapılmış mı diye kontrol edilir.
 <h4>Adım-Adım Uygulama</h4>
-Elimizde  5 1 4 2 8 değerlerine sahip 5 elemanlı bir dizi olsun. Bunu bubble sort kullanarak adım adım sıralayalım:<br/>
+Elimizde 5 1 4 2 8 değerlerine sahip 5 elemanlı bir dizi olsun. Bunu bubble sort kullanarak adım adım sıralayalım:<br/>
 <!--more-->
 <strong>İlk Döngü:</strong><br/>
 ( <strong>5</strong> <strong>1</strong> 4 2 8 ) --&gt; ( <strong>1</strong> <strong>5</strong> 4 2 8 ), İlk iki elemanı karşılaştırıyorum ve swapping yapıyorum. <br/>
-( 1 <strong>5</strong> <strong>4</strong> 2 8 ) --&gt; ( 1 <strong>4</strong> <strong>5</strong> 2 8 ),  5 &gt; 4 swap yapıyorum<br/>
+( 1 <strong>5</strong> <strong>4</strong> 2 8 ) --&gt; ( 1 <strong>4</strong> <strong>5</strong> 2 8 ), 5 &gt; 4 swap yapıyorum<br/>
 ( 1 4 <strong>5</strong> <strong>2</strong> 8 ) --&gt; ( 1 4 <strong>2</strong> <strong>5</strong> 8 ), 5 &gt; 2 swap yapıyorum<br/>
 ( 1 4 2 <strong>5</strong> <strong>8</strong> ) --&gt; ( 1 4 2 <strong>5</strong> <strong>8</strong> ), 8&gt;5 olduğundan bu adımda swap yapmıyorum<br/>
 <strong>İkinci Döngü:</strong><br/>
 ( <strong>1</strong> <strong>4</strong> 2 5 8 ) --&gt; ( <strong>1</strong> <strong>4</strong> 2 5 8 )<br/>
-( 1 <strong>4</strong> <strong>2</strong> 5 8 ) --&gt; ( 1 <strong>2</strong> <strong>4</strong> 5 8 ),  4 &gt; 2 swap yapıyorum<br/>
+( 1 <strong>4</strong> <strong>2</strong> 5 8 ) --&gt; ( 1 <strong>2</strong> <strong>4</strong> 5 8 ), 4 &gt; 2 swap yapıyorum<br/>
 ( 1 2 <strong>4</strong> <strong>5</strong> 8 ) --&gt; ( 1 2 <strong>4</strong> <strong>5</strong> 8 )<br/>
 <span style="text-decoration: line-through;">( 1 2 4 <strong>5</strong> <strong>8</strong> ) </span>--&gt;<span style="text-decoration: line-through;"> ( 1 2 4 <strong>5</strong> <strong>8</strong> )</span>, İlk döngüm bittiğine göre sondaki elemanımın en büyük olduğunu biliyorum. gereksiz bir adımdır.<br/>
 Sıralama işlemi tamamlandı, fakat bunu algoritma bilmiyor bunun için bir adım daha dolaşır.<br/>

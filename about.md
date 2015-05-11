@@ -9,6 +9,5 @@ permalink: /about/
 <a href="http://tolgaokur.com" target="_blank">Tolga Okur</a>
 <!-- [Tolga Okur](http://tolgaokur.com) -->
 
-{% include social/googleplus-person.html %} {% include social/googleplus-page.html %}
 
-{% include social/twitter-timeline.html %}
+<!--{% include social/twitter-timeline.html %}-->

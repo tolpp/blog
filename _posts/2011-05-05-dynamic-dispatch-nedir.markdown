@@ -2,8 +2,8 @@
 layout: post
 title:  "Dynamic Dispatch nedir?"
 date:   2011-05-05 13:59:00
-tags: Dynamic Dispatch, Programming Languages
-categories: "Terimler"
+tags: [dynamic dispatch, programming languages, programlama dilleri]
+categories: [Terimler]
 ---
 Subclass içinde override edilmiş(overload değil!) bir metod çağırıldığında, subclass içindekinin mi yoksa superclass içindekinin mi çağırılacağının run-time sırasında dinamik olarak belirlenmesine Dynamic Dispatch denir.
 

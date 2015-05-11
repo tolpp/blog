@@ -2,8 +2,8 @@
 layout: post
 title:  "Euclid Algoritması (Euclid's algorithm)"
 date:   2012-09-26 01:28:00
-tags: GCD, Euclid
-categories: Algorithms
+tags: [gcd, euclid]
+categories: [Algoritmalar]
 mathjax: true
 ---
 Euclid Algoritması en büyük ortak böleni (EBOB)[GCD (Greatest Common Divisor )] bulmak için kullanılabilecek en etkin algoritmalardan biridir. $$O((logn)^2)$$ zaman karmaşıklığına sahiptir.

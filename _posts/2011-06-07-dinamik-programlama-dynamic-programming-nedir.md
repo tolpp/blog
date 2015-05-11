@@ -2,8 +2,8 @@
 layout: post
 title:  "Dinamik Programlama (Dynamic Programming) nedir?"
 date:   2011-06-07 16:44:00
-tags: Science
-categories: Science
+tags: [dinamik programlama, dynamic programming, dp]
+categories: [Science]
 mathjax: true
 ---
 

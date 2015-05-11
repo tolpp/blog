@@ -2,13 +2,13 @@
 layout: post
 title:  İşletim Sistemi Ne Yapar?
 date:   2012-01-25 14:31:00
-tags: Application Programs, Control Program <!--"Application Programs","Control Program", "Resource Allocator", "System Programs", "System View", "User View" -->
-categories: Operating Systems
+tags: [application programs, control program, os, işletim sistemi] # denemelik, buraya çok başka şeyler de yazabilirim.
+categories: [Operating Systems]
 ---
 
 Bir bilgisayar sistemi donanım (hardware), işletim sistemi (operating system), uygulama programları (application programs) ve kullanıcılar (users) olmak üzere 4 bölümde incelenebilir.
 
-Hardware sistem için temel kaynakları sağlar.  İşlemci (CPU), bellek, Girdi/Çıktı cihazları (I/O devices) gibi.
+Hardware sistem için temel kaynakları sağlar. İşlemci (CPU), bellek, Girdi/Çıktı cihazları (I/O devices) gibi.
 
 Application programs kullanıcıların problemlerini çözmek için donanım kaynaklarını kullanan yazılımlardır. Spreadsheet, Web tarayıcıları, derleyiciler gibi.
 
