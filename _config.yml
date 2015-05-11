@@ -5,7 +5,7 @@ email: ahmettolgaokur@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   tolpp.com; algoritmalara, veri yapılarına, bilgisayarla çözülebilecek problemlere yer verilen bir blogdur.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tolpp.github.com" # the base hostname & protocol for your site
+url: "http://tolpp.com" # the base hostname & protocol for your site
 twitter_username: tolpp
 github_username:  tolpp
 
