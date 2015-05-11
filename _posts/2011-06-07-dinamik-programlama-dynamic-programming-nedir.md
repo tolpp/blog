@@ -94,7 +94,7 @@ Problem çözümü için bu fonksiyonu kullanacak olursak, $$O(2^n)$$ zaman karm
 ##### 3- Compute the maximum value of a price
 
 ###### A. Memoization kullanılarak Top-Down yaklaşım ile
-<a href="http://tolpp.com/dinamik-programlama-dynamic-programming-nedir/cut-rod-algorithm-with-top-down-approximation/" rel="attachment wp-att-100"><img class="alignnone size-full wp-image-100" title="cut-rod-algorithm-with-top-down-approximation" src="http://tolpp.com/upLoads/2011/06/cut-rod-algorithm-with-top-down-approximation.png" alt="" width="596" height="393" /></a>
+<img class="alignnone size-full wp-image-100" title="cut-rod-algorithm-with-top-down-approximation" src="http://tolpp.com/assets/images/2011/06/cut-rod-algorithm-with-top-down-approximation.png" alt="" width="596" height="393" />
 
 Memoized-Cut-Rod(p,n) fonksiyonu, asıl memoization işlemini yapan Memoized-Cut-Rod-Aux(p,n,r) fonksiyonunu çağırır. Bu fonksiyon içinde tanımlanan yardımcı array, bizi her defasında alt problem hesaplamaktan kurtarır.
 
@@ -102,7 +102,7 @@ Memoized-Cut-Rod-Aux(p,n,r) fonksiyonu recursive tanımladığımız Top-Down ç
 
 ######B. Bottom-Up yaklaşımı ile
 
-<a href="http://tolpp.com/dinamik-programlama-dynamic-programming-nedir/cut-rod-solution-algorithm-with-bottom-up-approximation/" rel="attachment wp-att-101"><img class="alignnone size-full wp-image-101" title="cut-rod-solution-algorithm-with-bottom-up-approximation" src="http://tolpp.com/upLoads/2011/06/cut-rod-solution-algorithm-with-bottom-up-approximation.png" alt="" width="594" height="214" /></a>
+<img class="alignnone size-full wp-image-101" title="cut-rod-solution-algorithm-with-bottom-up-approximation" src="http://tolpp.com/assets/images/2011/06/cut-rod-solution-algorithm-with-bottom-up-approximation.png" alt="" width="594" height="214" />
 
 Bottom-Up-Cut-Rod(p,n) fonksiyonunda $$i$$ problem boyutu $$j$$ alt problem boyutundan küçük olduğu sürece :
 
@@ -120,13 +120,13 @@ Dinamik programlama için kullandığımız Top-Down ve Bottom-Up yaklaşımlar�
 
 Yukarıda yaptığımız hesaplamalar bize çözümü değil, yalnızca en iyi çözümün değerini getiriyordu. Eğer ihtiyacımız olan sadece bu değerse, fonksiyonu çağırmamızın ardından bize dönen değeri doğrudan kullanabiliriz. Eğer ki ihtiyacımız olan çözümün kendisiyse kullandığımız hesaplama(computing) algoritmalarından birini genişleterek çözümü de bir yerde tutacak hale getirmemiz gerekir. Bottom-Up-Cut-Rod fonksiyonun genişleterek çözüme gidelim.
 
-<a href="http://tolpp.com/dinamik-programlama-dynamic-programming-nedir/extended-bottom-up-cut-rod/" rel="attachment wp-att-109"><img class="alignnone size-full wp-image-109" title="Extended-Bottom-Up-Cut-Rod" src="http://tolpp.com/upLoads/2011/06/Extended-Bottom-Up-Cut-Rod.png" alt="" width="599" height="266" /></a>
+<img class="alignnone size-full wp-image-109" title="Extended-Bottom-Up-Cut-Rod" src="http://tolpp.com/assets/images/2011/06/Extended-Bottom-Up-Cut-Rod.png" alt="" width="599" height="266" />
 
 Şeklinde bir genişletme ile çözüme ulaşabiliriz. Burada kullandığımız dizisi, tüm en iyi çözümleri içinde tutmaktadır.
 
 Çözümün yazdırılmasını da aşağıdaki fonksiyonla yapalım:
 
-<a href="http://tolpp.com/dinamik-programlama-dynamic-programming-nedir/print-cut-rod/" rel="attachment wp-att-110"><img class="alignnone size-full wp-image-110" title="Print-cut-rod" src="http://tolpp.com/upLoads/2011/06/Print-cut-rod.png" alt="" width="594" height="131" /></a>
+<img class="alignnone size-full wp-image-110" title="Print-cut-rod" src="http://tolpp.com/assets/images/2011/06/Print-cut-rod.png" alt="" width="594" height="131" />
 
 Eğer fonksiyonumuzu Print-Cut-Rod-Solution( ) şeklinde verirsek aşağıdaki gibi bir çözümümüz olacaktır:
 
