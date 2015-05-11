@@ -84,7 +84,7 @@ $$r_n = \max_{1 \le i \le n}(p_i + r_{n-i})$$
 
 ##### 2- A Recursive solution
 
-<a href="http://tolpp.com/dinamik-programlama-dynamic-programming-nedir/cut-rod-recursive-solution-2/" rel="attachment wp-att-99"><img class="alignnone size-full wp-image-99" title="cut-rod-recursive-solution" src="http://tolpp.com/upLoads/2011/06/cut-rod-recursive-solution1.png" alt="" width="378" height="160" /></a>
+<img class="alignnone size-full wp-image-99" title="cut-rod-recursive-solution" src="http://tolpp.com/assets/2011/06/cut-rod-recursive-solution1.png" alt="" width="378" height="160" />
 
 Yukarıdaki top-down recursive fonksiyon, genelleme yaparak bulduğumuz maksimum çubuk fiyatını geri döndürecektir.Dışarıdan $$p[1..n]$$ şeklinde ücretleri tutan bir tamsayı dizisi ve çubuk uzunluğunu tutan bir $$n$$ tamsayısı alır.
 $$n == 0$$, fonksiyonun özyinelemesinin durmasını sağlayan kontroldür. Eşitlik sağlanmışsa $$0$$ döndürülür.
