@@ -9,13 +9,13 @@ mathjax: true
 
 Merhaba. Bu yazıda dinamik programlamayı olabildiğince açıklayıcı şekilde anlatmaya çalışacağım.
 
-###Dinamik Programlama Nedir?
+### Dinamik Programlama Nedir?
 
 Dinamik programlama karışık problemlerin daha basit düzeylere indirilerek çözülmesini esas alan bir optimizasyon yöntemidir. Optimizasyondaki amaç, problemdeki kısıtlayıcı koşullar altında bu problemle ilgili en iyi karara varmaktır. Bir problem üzerinde dinamik programlama uygulayabilmek için o problemin alt problemlere parçalanabilir veya bir önceki problemin karakteristiğini koruyacak şekilde çözümü daha kolay başka probleme dönüştürülebilir olması yeterlidir
 
 Yönteme göre optimum çözüm *başlangıç durumundan bağımsız olarak diğer çözümler ile çözüm sonuçlarına göre optimum çözümler ardışıklığı*dır. Yani, başlangıçta alt problemlerin çözümü bulunup buradan elde edilen verilerle daha büyük alt problemler çözüldüğünde problemin kendisi de çözülmüş olmaktadır.
 
-###Nerelerde Kullanılır?
+### Nerelerde Kullanılır?
 
 Dinamik programlama, aynı çözümlü küçük problemlere parçalanabilen tüm problemler için uygulanabilir. Fakat brute-force ile exponential zamanda çözülebilen problemlerde gerçek değerini gösterir. En basitinden fibonacci dizisinin hesabı $$O(2^n)$$ zaman karmaşıklığına sahipken, dinamik programlama ile problem $$O(n)$$ zamanda çözülebilmektedir.
 
@@ -31,7 +31,7 @@ DP ile çözülebilecek birkaç problem:
 
 Başlamadan önce, birazdan sıkça göreceğiniz [memoization]({{site.baseurl}}/memoization-nedir/) kavramına bakmanızı öneriyorum.
 
-####Dinamik Programlama Algoritmasının Kurulması
+#### Dinamik Programlama Algoritmasının Kurulması
 
 Bir problem için dinamik programlama algoritması yapmak için aşağıdaki dört adım uygulanır.
 
@@ -100,7 +100,7 @@ Memoized-Cut-Rod(p,n) fonksiyonu, asıl memoization işlemini yapan Memoized-Cut
 
 Memoized-Cut-Rod-Aux(p,n,r) fonksiyonu recursive tanımladığımız Top-Down çalışan Rod-Cut(p,n) fonksiyonuna çok benzer. Farklı olarak ilk adımında dizi üzerinden kontrol yapar. Eğer bir alt problem daha önceden çözülmüşse, tekrar çözmeye gerek kalmadan değer doğrudan dizi üzerinden okunur. Çözülmemiş alt problem ise çözülerek dizi üzerine yazılır.
 
-######B. Bottom-Up yaklaşımı ile
+###### B. Bottom-Up yaklaşımı ile
 
 <img class="alignnone size-full wp-image-101" title="cut-rod-solution-algorithm-with-bottom-up-approximation" src="http://tolpp.com/assets/images/2011/06/cut-rod-solution-algorithm-with-bottom-up-approximation.png" alt="" width="594" height="214" />
 
@@ -142,7 +142,7 @@ $$
 #### Longest Common Subsequance (En uzun ortak alt dizi)(LCS) problem
 Problemin dinamik programlama ile çözümüne [buradan]({{site.baseurl}}/java-ile-dinamik-programlama-kullanarak-longest-common-subsequencelcs-cozumu) ulaşabilirsiniz.
 
-####Algoritmanın iyileştirilmesi
+#### Algoritmanın iyileştirilmesi
 Dinamik programlama sırasında birçok işlemi yeniden yapmak yerine alt problem çözümünü depoladığımızdan çözüme çok daha hızlı ulaşabiliriz. Fakat çok büyük problemler için bu bize büyük maliyette bir belleğe mal olabilir fibonacci sayısılarının bulunması, rod-cutting gibi problemler tek dizi üzerinde tutulduğundan $$O(n)$$ bellek kullanırken [LCS]({{site.baseurl}}/java-ile-dinamik-programlama-kullanarak-longest-common-subsequencelcs-cozumu/), Matrix Chain Manipulation gibi problemler $$O(n^2)$$ bellek kullanırlar. Peki bu sorunun bir çözümü var mıdır?
 
 Eğer bizden çözümün tamamı isteniyorsa maalesef yoktur. Fakat sadece çözümün değeri isteniyorsa çok küçük bellek kullanımlarıyla bu değer elde edilebilir. Örneğin, $$35$$ sayısına kadar olan tüm fibonacci sayılarını listeleyebilmek için dizinin tamamı elimizde olmalıdır. Fakat bizden $$fib(35)$$ değeri istenirse bunun için $$fib(34)$$ ve $$fib(33)$$ değerlerini bilmemiz yeterli olacaktır. Bu da $$fib(35)$$ değerine $$O(1)$$ bellek kullanarak ulaşabileceğimiz anlamına gelir. Aynı şekilde [LCS]({{site.baseurl}}/java-ile-dinamik-programlama-kullanarak-longest-common-subsequencelcs-cozumu/) probleminde bizden altdizinin ne olduğu yerine altdizinin uzunluğu istenirse, $$O(n^2)$$ yerine $$O(n)$$ bellek kullanarak değeri bulabiliriz.
