@@ -17,4 +17,4 @@ Algoritmanın daha iyi anlaşılabilmesi ve görsel için : [ (Vikipedi) Eratos
 **Java :**
 <script src="https://gist.github.com/tolpp/cef616c3668714091ca2.js"></script>
 
-<!--Bu yazı <a href="http://tolpp.com/ogrenme-notlari/">öğrenme notları</a>‘nın bir parçasıdır. -->
+<!--Bu yazı <a href="https://tolpp.com/ogrenme-notlari/">öğrenme notları</a>‘nın bir parçasıdır. -->
