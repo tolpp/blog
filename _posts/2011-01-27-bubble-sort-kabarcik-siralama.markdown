@@ -6,7 +6,7 @@ tags: [algoritmalar, sıralama algoritmaları, kabarcık sıralama, bubble sort]
 categories: [Algoritmalar]
 ---
 
-<img title="bubblesort_animate" src="http://upload.wikimedia.org/wikipedia/commons/3/37/Bubble_sort_animation.gif" alt="" width="224" height="190" align="right" border="1"/> Kabarcık sıralamanın gerçekleşimini gösteren animasyon
+<img title="bubblesort_animate" src="https://upload.wikimedia.org/wikipedia/commons/3/37/Bubble_sort_animation.gif" alt="" width="224" height="190" align="right" border="1"/> Kabarcık sıralamanın gerçekleşimini gösteren animasyon
 
 Sinking sort olarak da geçen bu sıralama algoritması, komşu olan her iki eleman arasında bir karşılaştırma yapar ve eğer istenenin tersi bir sıralama varsa swapping (yer değiştirme) işlemi uygular. Bu işlem ilk ugulandığında en büyük sayımız en sona yerleşir. Elimizde N elemanlı bir dizi olduğunu kabul edersek, tam bir sıralama elde edebilmemiz için N-1 kere diziyi baştan sona dolaşmamız gerekir.
 <h4>Performans</h4>
@@ -31,7 +31,7 @@ Sıralama işlemi tamamlandı, fakat bunu algoritma bilmiyor bunun için bir ad�
 <span style="text-decoration: line-through;">( 1 2 <strong>4</strong> <strong>5</strong> 8 ) </span>--&gt;<span style="text-decoration: line-through;"> ( 1 2 <strong>4</strong> <strong>5</strong> 8 ), </span>sondan bir önceki adıma da ikinci döngü sayesinde bakmama gerek yoktur.<br/>
 <span style="text-decoration: line-through;">( 1 2 4 <strong>5</strong> <strong>8</strong> ) </span>--&gt;<span style="text-decoration: line-through;"> ( 1 2 4 <strong>5</strong> <strong>8</strong> )</span>, gereksiz adım<br/>
 <h4>Pseudocode</h4>
-<script src="https://gist.github.com/tolpp/404288218998a512b1be.js"></script>
+<script src="httpss://gist.github.com/tolpp/404288218998a512b1be.js"></script>
 Bu pseudocode, bubble sort algoritması için uygulanan iyileştirmeleri de beraberinde içerir. Buna göre, zaten olması gereken yerde olan son elemanları kontrol etmez (n değerinin sürekli değişmesi sayesinde) ve bir swap işlemi gerçekleştirilmemişse zaten dizi sıralı diyerek algoritmayı bitirir.
 <h4>Kaynaklar</h4>
-<a href="http://en.wikipedia.org/wiki/Bubble_sort">http://en.wikipedia.org/wiki/Bubble_sort</a>
+<a href="https://en.wikipedia.org/wiki/Bubble_sort">https://en.wikipedia.org/wiki/Bubble_sort</a>

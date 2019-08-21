@@ -5,7 +5,7 @@ date:   2011-02-01 17:58:00
 tags: [sıralama algoritmaları, seçmeli sıralama, selection sort]
 categories: [Sıralama Algoritmaları]
 ---
-<img class=" " title="Selection Sort Animate" src="http://upload.wikimedia.org/wikipedia/commons/b/b0/Selection_sort_animation.gif" alt="Seçmeli arama animasyonu" width="202" height="202" align="right" border="1"/>
+<img class=" " title="Selection Sort Animate" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Selection_sort_animation.gif" alt="Seçmeli arama animasyonu" width="202" height="202" align="right" border="1"/>
 
 Seçmeli arama (selection sort) her bir adım sonunda en küçük değerin en başa getirildiği sıralama algoritmasıdır. Dizi içinde dolaşılarak en küçük değer en başa getirilir. Dizideki eleman sayısı N kadar dolaşma işlemi tekrarlandığında dizi üzerinde sırama ede edilmiş olur.
 <h4>Performans</h4>
@@ -45,4 +45,4 @@ Ayrıca dikat edilirse, 2.döngüde sıralı dizi elde edilmesine rağmen iki d�
 <h4>Pseudocode</h4>
 <script src="https://gist.github.com/tolpp/20c1c3ad091b11260bb4.js"></script>
 <h4>Kaynaklar</h4>
-<a href="http://en.wikipedia.org/wiki/Selection_sort">http://en.wikipedia.org/wiki/Selection_sort</a>
+<a href="https://en.wikipedia.org/wiki/Selection_sort">https://en.wikipedia.org/wiki/Selection_sort</a>
