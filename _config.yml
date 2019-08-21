@@ -24,6 +24,6 @@ tag_page_dir: tag
 
 ignored_tags: [ignored] #ignored tags should be here
 
-gems:
+plugins:
   - jekyll-sitemap
   - octopress-minify-html
